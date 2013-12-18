@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">飞机大战</string>
+    <string name="msg_game_pause">游戏暂停中。。。</string>
+    <string name="msg_should_stop_game">确定退出游戏？</string>
+    <string name="start">回到游戏</string>
+    <string name="game_over">GAME\nOVER</string>
+    <string name="stop">退出游戏</string>
+    <string name="restart">重新开始</string>
+    <string name="paly_again">再来一局</string>
+    <!-- settings -->
+    <string name="start_game">开始游戏</string>
+    <string name="back_music">背景音乐：%1$s</string>
+    <string name="game_music">游戏音效：%1$s</string>
+    <string name="test_qq_login">测试QQ登录</string>
+    <string name="qq_login">使用QQ登录</string>
+    <string name="about_me">关于作者</string>
+    <string name="my_name">如竹</string>
+    <string name="turn_on">开</string>
+    <string name="turn_off">关</string>
+    <!-- 关于我 -->
+    <string name="signature">回忆我的方式有千千万万种，你的心却像是一阵风。</string>
+    <string name="email">邮箱</string>
+    <string name="qq">QQ</string>
+    <string name="weibo">微博</string>
+    <string name="weixin">微信</string>
+    <string name="email_value">likebamboo@163.com</string>
+    <string name="qq_value">1072435437</string>
+    <string name="weibo_value">如竹</string>
+    <string name="weixin_value">likebamboo</string>
+    <string name="back">返回</string>
+
+    <!-- 测试QQ登录 -->
+    <string name="user_name">QQ昵称</string>
+    <string name="user_sex">性别</string>
+    <string name="user_gender">性别</string>
+    <string name="user_level">黄钻等级</string>
+    <string name="user_vip">VIP</string>
+    <string name="user_yellow_vip">黄钻</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="loading_user_info">正在加载用户信息。。。</string>
+    <string name="network_disable">网络未开启</string>
+    <string name="time_out">网络请求超时</string>
+    <string name="unknow_error">未知错误</string>
+
+</resources>

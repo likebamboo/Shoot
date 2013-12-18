@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/game_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.likebamboo.view.ShootSurface
+        android:id="@+id/main_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:id="@+id/game_score_board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="7dp"
+        android:paddingTop="7dp" >
+
+        <ImageView
+            android:id="@+id/score0_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:maxWidth="12dp"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/score1_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:maxWidth="12dp"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/score2_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:maxWidth="12dp"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/score3_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:maxWidth="12dp"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:maxWidth="12dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/num0" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:maxWidth="12dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/num0" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:maxWidth="12dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/num0" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/game_pause_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:duplicateParentState="true"
+            android:maxWidth="25dp"
+            android:src="@drawable/pause" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/game_bomb_board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:padding="5dp"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/bomb_iv"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/bomb" />
+
+        <ImageView
+            android:id="@+id/bomb_x_iv"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/bomb_iv"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/x" />
+
+        <ImageView
+            android:id="@+id/bomb_count_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/bomb_x_iv"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:maxWidth="12dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/num3" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom" >
+
+        <ImageView
+            android:id="@+id/splash_settings_iv"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:contentDescription="@string/app_name"
+            android:padding="5dp"
+            android:src="@drawable/settings_bg" />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <Button
+        android:id="@+id/pause_dialog_start_bt"
+        style="@style/MenuButton"
+        android:layout_marginTop="5dp"
+        android:text="@string/start" />
+
+    <Button
+        android:id="@+id/pause_dialog_restart_bt"
+        style="@style/MenuButton"
+        android:layout_marginTop="5dp"
+        android:text="@string/restart" />
+
+    <Button
+        android:id="@+id/pause_dialog_stop_bt"
+        style="@style/MenuButton"
+        android:layout_marginTop="5dp"
+        android:text="@string/stop" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemContainer"
+    style="@style/round_bt_item_single"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dip"
+    android:minHeight="13dip"
+    android:orientation="horizontal" >
+
+    <include layout="@layout/round_bt_item" />
+
+</LinearLayout>

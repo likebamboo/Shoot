@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- UItable LIST BORDER COLOR -->
+    <color name="round_bt_container_border">#ffb7babb</color>
+    <!-- UItable ITEM BACKGROUND COLOR - STATE - DEFAULT -->
+    <color name="round_bt_start_color_default">#FFFFFFFF</color>
+    <color name="round_bt_end_color_default">#FFFFFFFF</color>
+    <!-- UItable  ITEM BACKGROUND COLOR - STATE - PRESSED -->
+    <color name="round_bt_start_color_pressed">#ff7d7d7d</color>
+    <color name="round_bt_end_color_pressed">#ff7d7d7d</color>
+    <!-- ITEM TEXT COLORS - STATES - PRESSED AND DEFAULT -->
+    <color name="round_bt_text_gray_color_default">#ff9e9e9e</color>
+    <color name="round_bt_text_color_default">#ff000000</color>
+    <color name="round_bt_text_color_pressed">#ffffffff</color>
+
+</resources>
