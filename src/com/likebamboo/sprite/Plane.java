@@ -1,4 +1,4 @@
-﻿
+
 package com.likebamboo.sprite;
 
 import android.content.Context;
